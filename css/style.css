@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* global elements */
+.zone-on {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* navbar */
+
+/* end of navbar */
+
+.button-img {
+  width: 45px;
+}
+.button-buy {
+  display: inline-block;
+  padding-left: 5px;
+  font-size: 20px;
+  color: #896eff;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.button-round {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  position: relative;
+  border: none;
+  background-color: #896eff;
+  color: white;
+}
+
+/* end of global elements */
+#redtext {
+  color: #e53935;
+  font-weight: bold;
+}
+
+#newline:after {
+  content: "\a";
+  white-space: pre;
+}
+
+#newline1::before {
+  content: "\a";
+  white-space: pre;
+}
+
+.centerHeader {
+  text-align: center;
+}
+
+.header1 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  color: #0077b5;
+  padding-bottom: 50px;
+}
+
+.header2 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header3 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+#redtext {
+  color: #e53935;
+}
+
+/* phase 1 header completed */
+
+.mobile {
+  position: relative;
+  left: 40px;
+}
+
+/* phase 2 completed  */
+
+/* pricing section */
+
+.space-adder {
+  position: relative;
+  padding-top: 100px;
+}
+
+.pricing-tile {
+  box-shadow: 0px 0 10px rgb(31 66 135 / 30%);
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+.pricing-text {
+  padding-top: 50px;
+}
+
+.pricing-text p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.pricing-header {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1f2471;
+}
+.pricing-days {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #896eff;
+}
+.pricing-text:hover {
+  color: white;
+}
+
+.pricing-text:hover .pricing-header {
+  color: white;
+}
+
+.pricing-text:hover .pricing-days {
+  color: white;
+}
+
+.pricing-text:hover .button-buy {
+  color: white;
+}
+
+.pricing-tile:hover {
+  background: linear-gradient(to right, #896eff 0, #896eff 100%);
+}
+
+.pricing-tile:hover .button-round {
+  background-color: white;
+  color: #896eff;
+}
+
+/* form */
+
+.vamsi {
+  border-radius: 30px;
+  width: 300px;
+  height: 45px;
+  position: relative;
+}
+
+.icon {
+  color: #896eff;
+  float: left;
+  position: relative;
+  left: 45px;
+  top: 15px;
+}
+
+.icon::after {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  border: 0.5px solid #896eff;
+  top: 1px;
+  left: 20px;
+}
+input,
+textarea {
+  padding-left: 70px;
+  border-color: transparent;
+  background-color: transparent;
+  box-shadow: 0 0px 10px 4px rgb(31 66 135 / 10%);
+}
+
+.form-sectionPlace {
+  padding-top: 100px;
+}
+
+.icon2 {
+  float: left;
+  position: relative;
+  left: 50px;
+  top: 14px;
+  color: #896eff;
+}
+
+.icon2:after {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  border: 0.5px solid #896eff;
+  top: 1px;
+  left: 20px;
+}
+
+.contact-space {
+  position: relative;
+  top: 30px;
+}
+
+.contact-left {
+  display: inline-block;
+}
+
+.contact-right {
+  display: inline-block;
+}
+
+.vamsi2 {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.icon3 {
+  float: left;
+  position: relative;
+  left: 40px;
+  top: -300px;
+  color: #896eff;
+}
+
+.icon3:after {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  border: 0.5px solid #896eff;
+  top: 1px;
+  left: 20px;
+}
+
+/* icon here */
+.icon-space {
+  position: relative;
+  top: 140px;
+}
+
+.header4 {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  color: #0077b5;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.button-sl1 {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+/* end of contact us form */
+
+/* start of benefits */
+.header5 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  color: #0077b5;
+}
+.ben-text {
+  color: #0077b5;
+  text-align: center;
+  font-size: 30px;
+}
+.ben-img2 {
+  padding-top: 30px;
+}
+.ben-img3 {
+  padding-top: 15px;
+}
+
+.center-icon-img {
+  text-align: center;
+  display: block;
+}
+.opacity-text {
+  border: 1px solid pink;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  color: #896eff;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(137, 110, 255, 0.1);
+}
+.product-header {
+  font-size: 35px;
+  color: #1f2471;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.product-para {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #505489;
+
+  padding-top: 20px;
+}
+.product-right {
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+
+.product-right2 {
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+.product-left {
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+
+.banner2-img {
+  width: 100%;
+  padding-top: 150px;
+}
+
+.product-para1 {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #505489;
+  width: 500px;
+  padding-top: 20px;
+}
+
+.banner5-img {
+  width: 100%;
+}
+
+.banner5 {
+  padding-top: 50px;
+}
+.header-5-c {
+  color: #1f2471;
+  z-index: 10;
+  position: relative;
+  top: 130px;
+  left: 70px;
+}
+#everyone {
+  color: red;
+}
+.final-text {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 34px;
+}
+
+.brandtext {
+  padding-top: 50px;
+  color: #0077b5;
+  text-align: center;
+  font-size: 80px;
+}
+
+/* media queries */
+
+@media all and (max-width: 1198px) {
+  .pricing-tile {
+    margin-top: 50px;
+  }
+  .product-right {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding-top: 50px;
+  }
+  .product-left {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding-top: 150px;
+  }
+
+  .banner2-img {
+    width: 100%;
+    padding-top: 0px;
+  }
+  .product-right2 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .header-5-c {
+    color: #1f2471;
+    z-index: 10;
+    position: relative;
+    top: 50px;
+    left: 0;
+  }
+  .product-para1 {
+    width: auto;
+  }
+}
